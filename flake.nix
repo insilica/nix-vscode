@@ -42,7 +42,7 @@
         };
       in {
         packages = {
-          inherit emacs intelli vscode;
+          inherit emacs intellij vscode;
           default = vscode;
         };
       });
