@@ -4,6 +4,9 @@ VSCode flake for Insilica
 
 ## Usage
 
-- With default keybindings: `nix run github:insilica/nix-vscode --impure`
-- With emacs keybindings: `nix run github:insilica/nix-vscode#emacs --impure`
-- With IntelliJ keybindings: `nix run github:insilica/nix-vscode#intellij --impure`
+- With default keybindings:
+    - `NIXPKGS_ALLOW_UNFREE=1 nix run github:insilica/nix-vscode --impure`
+- With emacs keybindings:
+    - `NIXPKGS_ALLOW_UNFREE=1 nix run github:insilica/nix-vscode#emacs --impure`
+- With IntelliJ keybindings:
+    - `NIXPKGS_ALLOW_UNFREE=1 nix run github:insilica/nix-vscode#intellij --impure`
