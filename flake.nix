@@ -18,6 +18,9 @@
           graphql.vscode-graphql
           kahole.magit
           ms-vscode-remote.remote-ssh
+          ms-vsliveshare.vsliveshare
+          rust-lang.rust-analyzer
+          timonwong.shellcheck
         ]);
         vscode = pkgs.vscode-with-extensions.override {
           vscodeExtensions = extensions;
