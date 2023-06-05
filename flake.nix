@@ -2,7 +2,7 @@
   description = "VSCode flake for Insilica";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
     flake-utils.url = "github:numtide/flake-utils";
   };
   outputs = { self, nixpkgs, flake-utils, ... }@inputs:
@@ -26,8 +26,8 @@
             {
               name = "codescene-vscode";
               publisher = "CodeScene";
-              version = "0.2.1";
-              sha256 = "sha256-EslE2ee9EoPa3bOGNAxtTdj5QRs9JuaF/efYu9rHOCw=";
+              version = "0.3.0";
+              sha256 = "sha256-wY0EOxV9Q0VUqchqZUo1QCmIIPHY8PP6UhILSN4zFSc=";
             }
             {
               name = "joyride";
@@ -38,8 +38,8 @@
             {
               name = "remote-containers";
               publisher = "ms-vscode-remote";
-              version = "0.293.0";
-              sha256 = "sha256-O0hM+GKZ46moihBlPvfNuqfLazR5WVqEaE6XiEnaNN0=";
+              version = "0.294.0";
+              sha256 = "sha256-Lnwan4jT5cQ/0ymd3skxS3cAhXZdwvKDRjzheX1Hqf4=";
             }
             {
               name = "vscode-direnv";
@@ -65,8 +65,8 @@
             ++ vscode-utils.extensionsFromVscodeMarketplace [{
               name = "intellij-idea-keybindings";
               publisher = "k--kato";
-              version = "1.5.5";
-              sha256 = "sha256-ltzkeJ5nlfqWiGeXelRKMv5M/xBor1gSdRUwyw/RrtA=";
+              version = "1.5.9";
+              sha256 = "sha256-mSFaNMo8sLWZUBl0SAX/v2uoIBhArdxDOo0+XEHlKPY=";
             }];
         };
       in {
