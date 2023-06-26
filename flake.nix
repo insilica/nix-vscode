@@ -38,8 +38,8 @@
             {
               name = "remote-containers";
               publisher = "ms-vscode-remote";
-              version = "0.294.0";
-              sha256 = "sha256-Lnwan4jT5cQ/0ymd3skxS3cAhXZdwvKDRjzheX1Hqf4=";
+              version = "0.296.0";
+              sha256 = "sha256-VQkygGcE6dyyz5XsTRSN08vFF0Onx537Nnh7MawRdbo=";
             }
             {
               name = "vscode-direnv";
