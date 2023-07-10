@@ -16,7 +16,6 @@
         extensions = (with vscode-extensions;
           [
             bbenoist.nix
-            betterthantomorrow.calva
             brettm12345.nixfmt-vscode
             codezombiech.gitignore
             editorconfig.editorconfig
@@ -27,6 +26,12 @@
             rust-lang.rust-analyzer
             timonwong.shellcheck
           ] ++ (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+            {
+              name = "calva";
+              publisher = "betterthantomorrow";
+              version = "2.0.374";
+              sha256 = "sha256-VwdHOkduSSIrcOvrcVf7K8DSp3N1u9fvbaCVDCxp+bk=";
+            }
             {
               name = "codescene-vscode";
               publisher = "CodeScene";
