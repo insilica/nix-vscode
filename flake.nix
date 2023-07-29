@@ -30,8 +30,8 @@
             {
               name = "calva";
               publisher = "betterthantomorrow";
-              version = "2.0.374";
-              sha256 = "sha256-VwdHOkduSSIrcOvrcVf7K8DSp3N1u9fvbaCVDCxp+bk=";
+              version = "2.0.381";
+              sha256 = "sha256-7Tsqi1W4JdbUnJ8r+99LBFcvll73jqZzg1ohF8yevao=";
             }
             {
               name = "codescene-vscode";
@@ -48,8 +48,8 @@
             {
               name = "remote-containers";
               publisher = "ms-vscode-remote";
-              version = "0.296.0";
-              sha256 = "sha256-VQkygGcE6dyyz5XsTRSN08vFF0Onx537Nnh7MawRdbo=";
+              version = "0.305.0";
+              sha256 = "sha256-srSRD/wgDbQo9P1uJk8YtcXPZO62keG5kRnp1TmHqOc=";
             }
             {
               name = "vscode-direnv";
