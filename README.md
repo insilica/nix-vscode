@@ -16,6 +16,8 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 - With IntelliJ keybindings:
     - `NIXPKGS_ALLOW_UNFREE=1 nix run github:insilica/nix-vscode#intellij --impure`
 
+If your Nix configuration does not support those commands, this longer command should work: `NIXPKGS_ALLOW_UNFREE=1 nix --extra-experimental-features nix-command --extra-experimental-features flakes run github:insilica/nix-vscode --impure`
+
 ## Customizing
 
 Clone or fork the repo, and add your desired extensions to `flake.nix`.
