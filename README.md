@@ -42,7 +42,11 @@ error: hash mismatch in fixed-output derivation '/nix/store/fa50shp9j4ccxcybqwjf
 
 Copy the "got" value into the sha256 entry, and run `bin/build` again. If the build succeeds, you are done!
 
-Note that some extensions rely on downloading binary code from a website and executing it. Many of these extensions won't work because the VSCode directories this creates are read-only. This can be viewed as a feature or a limitation. One work-around that I've used is to install VSCode from another source and run it to install the problem extension. After verifying that the extension is working, I close that VSCode and run nix-vscode. Usually, the extension works well.
+Note that some extensions rely on downloading binary code from a website and executing it.
+Many of these extensions won't work because the VSCode directories this creates are read-only.
+One work-around that I've used is to install VSCode from another source and run it to install the problem extension.
+After verifying that the extension is working, I close that VSCode and run nix-vscode.
+Usually, the extension works well.
 
 To run your custom build, use `bin/run` from the repo directory. Use `bin/run .#emacs` or `bin/run .#intellij` if you want those keybindings. You can also push your repo to GitHub and run it with `NIXPKGS_ALLOW_UNFREE=1 nix run github:username/repo-name --impure`
 
