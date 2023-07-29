@@ -1,6 +1,6 @@
 ## nix-vscode
 
-VSCode flake for Insilica
+VSCode built with extensions for Clojure, Rust, and general development. Supports Linux and macOS.
 
 ## Usage
 
