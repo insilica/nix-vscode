@@ -20,7 +20,7 @@ If your Nix configuration does not support those commands, this longer command s
 
 ## Customizing
 
-Clone or fork the repo, and add your desired extensions to `flake.nix`.
+Clone or fork the repo, and add your desired extensions to flake.nix.
 Extension definitions look like this:
 ```nix
 {
@@ -46,8 +46,8 @@ To run your custom build, use `bin/run` from the repo directory. Use `bin/run .#
 
 ### Updating VSCode
 
-This project typically uses a stable channel which may have a slightly older version of VSCode. Newer versions of VSCode are available in the `nixpkgs-unstable` channel.
-Change the `nixpkgs.url` line at the start of `flake.nix` to:
+This project typically uses a stable channel which may have a slightly older version of VSCode. Newer versions of VSCode are available in the nixpkgs-unstable channel.
+Change the `nixpkgs.url` line at the start of flake.nix to:
 ```nix
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 ```
