@@ -19,10 +19,10 @@
             graphql.vscode-graphql
             kahole.magit
             ms-vscode-remote.remote-ssh
-            ms-vsliveshare.vsliveshare
             rust-lang.rust-analyzer
             timonwong.shellcheck
-          ] ++ (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+          ] ++ (if stdenv.isDarwin then [ ] else [ ms-vsliveshare.vsliveshare ])
+          ++ (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
             {
               name = "calva";
               publisher = "betterthantomorrow";
