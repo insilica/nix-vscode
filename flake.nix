@@ -19,6 +19,7 @@
             brettm12345.nixfmt-vscode
             codezombiech.gitignore
             editorconfig.editorconfig
+            esbenp.prettier-vscode
             graphql.vscode-graphql
             kahole.magit
             ms-vscode-remote.remote-ssh
