@@ -2,6 +2,8 @@
 
 VSCode built with extensions for Clojure, Rust, and general development. Supports Linux and macOS.
 
+The extensions are listed in [flake.nix](flake.nix)
+
 ## Usage
 
 [Install Nix](https://github.com/DeterminateSystems/nix-installer):
